@@ -1,7 +1,8 @@
 # OpenAI Ticket Analysis - Python example app with Flask
 
-This is an example web app based on the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart) to assist with Qaulity assurance of tickets by analyising the content and producing sentiment results.  It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is an example web app based on the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart) can be used to assist with qaulity assurance of tickets by analyising the content and producing sentiment results. The app uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. 
 
+Follow the instructions below to get set up.
 
 The app once loaded, should look like the following: 
 
