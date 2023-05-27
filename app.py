@@ -21,10 +21,9 @@ def index():
 
         #print(data)
         return redirect(url_for("index", result=response.choices[0].text))
-
+        
     result = request.args.get("result")
     return render_template("index.html", result=result)
-
 
 def generate_prompt(data):
     return """Identify the following items from the prompt text: 
