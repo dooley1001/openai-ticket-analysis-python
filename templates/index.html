@@ -15,7 +15,9 @@
     <input type="text" name="data" placeholder="Enter some content from a ticket" required />
     <input type="submit" value="Submit for ticket Analysis " />
   </form>
-  {% if result %}
-  <div class="result">{{ result }}</div>
-  {% endif %}
+  <div class="container">
+    <pre><code>{% if result %}
+      <div class="result">{{ result }}</div>
+  {% endif %}</code></pre>
+  </div>
 </body>

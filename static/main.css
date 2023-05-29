@@ -64,3 +64,42 @@ input[type="submit"] {
   font-weight: bold;
   margin-top: 40px;
 }
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+pre {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+code {
+  display: block;
+  font-family: monospace;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+pre {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+code {
+  display: block;
+  font-family: Consolas,"courier new";
+  color: crimson;
+}
+
